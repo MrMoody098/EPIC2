@@ -4,19 +4,16 @@ import java.util.List;
 
 public class TaxiApp implements VehicleHiringTest {
     public static void main (String[] args){
-        System.err.println("lala");
+        System.out.println("lala");
     }
     private List<Vehicle> vehicles; // Assuming a list to store vehicles
 
-    // Implement methods from VehicleHiringTest interface
-    // ...
-
-    // Additional methods for managing the application logic
+    
     public void assignTaxiToPassenger(Passenger passenger) {
-        // Implement logic to find and assign a taxi to a passenger
+        //Vehicle (x,y) compared to passenger (x,y)
     }
 
-        //IGNORE THIS AS WELL FOR NOW
+        //IGNORE THIS AS WELL FOR NOW PLEASE
     @Override
     public boolean testAddToMap(String reg, Location loc) {
         // TODO Auto-generated method stub

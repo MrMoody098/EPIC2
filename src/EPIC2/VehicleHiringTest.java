@@ -1,5 +1,7 @@
 package EPIC2;
 
+import java.util.List;
+
 public interface VehicleHiringTest {
         // Inserts the vehicle with registration number reg to the map at location loc if it has not been already added to map.
         // It should return false if the vehicle is not registered or is already on map
